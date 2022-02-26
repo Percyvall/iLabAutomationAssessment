@@ -1,0 +1,14 @@
+<suite name = "Suite">
+    <parameter name = "browser" value="chrome"/>
+    <parameter name="url" value="https://www.ilabquality.com/"/>
+    <test name = "Test"> //Test
+        <classes>
+            <class name = "CareerPageTests.Careertests">
+            </class>
+
+        </classes>>
+
+    </test>
+
+</suite>
+
