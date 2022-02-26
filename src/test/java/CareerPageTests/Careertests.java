@@ -2,6 +2,7 @@ package CareerPageTests;
 
 import Pages.CareersPage;
 import Pages.JobsPage;
+import Pages.South_AfricaPage;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
@@ -11,7 +12,7 @@ public class Careertests extends BaseTests {
     public void Test_CareerLink () {
         CareersPage careersPage = homePage.Click_CareersLink();
         careersPage.scrolltoTraining_Certification();
-        careersPage.clickSaLink();
+        South_AfricaPage saPage = careersPage.clickSaLink();
 
         JobsPage jobsPage = saPage.clickJobFirstLink();
         jobsPage.scrollToInterestedTitle();

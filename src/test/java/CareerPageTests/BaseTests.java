@@ -13,11 +13,6 @@ public class BaseTests {
 
     private WebDriver driver;
     protected HomePage homePage;
-    protected CareersPage cereerPage;
-    protected JobsPage jobPage;
-    protected South_AfricaPage saPage;
-
-
 
     @BeforeClass
     @Parameters({"browser","url"})
