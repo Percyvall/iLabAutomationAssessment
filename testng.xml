@@ -1,14 +1,15 @@
-<suite name = "Suite">
+<suite name = "Suite" thread-count="1">
+
+    <parameter name = "Test" value="CareerTest Chrome"/>
     <parameter name = "browser" value="chrome"/>
     <parameter name="url" value="https://www.ilabquality.com/"/>
-    <test name = "Test"> //Test
+    <test name = "CareerTest Chrome">
         <classes>
-            <class name = "CareerPageTests.Careertests">
-            </class>
-
+            <class name = "CareerPageTests.Careertests"/>
         </classes>>
-
     </test>
+
+
 
 </suite>
 

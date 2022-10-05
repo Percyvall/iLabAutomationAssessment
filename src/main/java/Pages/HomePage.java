@@ -10,7 +10,6 @@ public class HomePage {
     private By CareerLink = By.id("menu-item-1373");
 
     public HomePage (WebDriver driver) {
-
         this.driver = driver;
     }
     public CareersPage Click_CareersLink () {
